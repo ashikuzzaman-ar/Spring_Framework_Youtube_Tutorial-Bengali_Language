@@ -9,7 +9,9 @@
     </head>
 
     <body>
-        <h1>${message}</h1>
+        <h1>${message0}</h1>
+        <h1>${message1}</h1>
+        <h1>${message2}</h1>
         <h1>${errorMessage}</h1>
     </body>
 </html>
