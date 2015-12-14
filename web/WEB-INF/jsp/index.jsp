@@ -9,9 +9,33 @@
     </head>
 
     <body>
-        <h1>${message0}</h1>
-        <h1>${message1}</h1>
-        <h1>${message2}</h1>
-        <h1>${errorMessage}</h1>
+        <h1>${message}</h1>
+        <h1 style="color: red;">${errorMessage}</h1>
+        <form name="home" action="home" method="POST">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Username</td>
+                        <td>
+                            <input type="text" name="username" value="" size="30" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" name="password" value="" size="30" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset" value="Reset" />
+                        </td>
+                        <td>
+                            <input type="submit" value="Submit" name="okButton" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
     </body>
 </html>
